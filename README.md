@@ -1,2 +1,2 @@
 # final_app
-Final quiz app
+Final Tik Tak Toe app

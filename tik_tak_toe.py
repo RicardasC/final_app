@@ -90,17 +90,17 @@ def b_click(b):
         count = count + 1
         winner()
 
-b1 = tk.Button(text= " ", font=("arial", 80, "bold"), height=1, width=3, bg="cornflowerblue", command = lambda: b_click(b1))
+b1 = tk.Button(text= " ", font=("arial", 80, "bold"), height=1, width=3, relief="sunken", bg="cornflowerblue", command = lambda: b_click(b1))
 b2 = tk.Button(text= " ", font=("arial", 80, "bold"), height=1, width=3, bg="lightgoldenrod1", command = lambda: b_click(b2))
-b3 = tk.Button(text= " ", font=("arial", 80, "bold"), height=1, width=3, bg="cornflowerblue", command = lambda: b_click(b3))
+b3 = tk.Button(text= " ", font=("arial", 80, "bold"), height=1, width=3, relief="sunken", bg="cornflowerblue", command = lambda: b_click(b3))
 
 b4 = tk.Button(text= " ", font=("arial", 80, "bold"), height=1, width=3, bg="lightgoldenrod1", command = lambda: b_click(b4))
-b5 = tk.Button(text= " ", font=("arial", 80, "bold"), height=1, width=3, bg="cornflowerblue", command = lambda: b_click(b5))
+b5 = tk.Button(text= " ", font=("arial", 80, "bold"), height=1, width=3, relief="sunken", bg="cornflowerblue", command = lambda: b_click(b5))
 b6 = tk.Button(text= " ", font=("arial", 80, "bold"), height=1, width=3, bg="lightgoldenrod1", command = lambda: b_click(b6))
 
-b7 = tk.Button(text= " ", font=("arial", 80, "bold"), height=1, width=3, bg="cornflowerblue", command = lambda: b_click(b7))
+b7 = tk.Button(text= " ", font=("arial", 80, "bold"), height=1, width=3, relief="sunken", bg="cornflowerblue", command = lambda: b_click(b7))
 b8 = tk.Button(text= " ", font=("arial", 80, "bold"), height=1, width=3, bg="lightgoldenrod1", command = lambda: b_click(b8))
-b9 = tk.Button(text= " ", font=("arial", 80, "bold"), height=1, width=3, bg="cornflowerblue", command = lambda: b_click(b9))
+b9 = tk.Button(text= " ", font=("arial", 80, "bold"), height=1, width=3, relief="sunken", bg="cornflowerblue", command = lambda: b_click(b9))
             
 b1.grid(row=0, column=0)
 b2.grid(row=0, column=1)

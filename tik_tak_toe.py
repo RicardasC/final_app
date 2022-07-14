@@ -5,7 +5,6 @@ window = Tk()
 window.title('Tik Tak Toe')
 window.geometry('623x651')
 
-
 clicked = True
 count = 0
 
@@ -94,7 +93,7 @@ def finalwinner():
         messagebox.askyesno("O Laimėjo", "Ar bandysite dar kartą?")
 
     if count == 9 and winner == False:
-        root.configure(bg='blue')
+        window.configure(bg='blue')
         messagebox.askyesno("Lygiosios", "Ar bandysite dar kartą?")
 
 def b_click(b):
